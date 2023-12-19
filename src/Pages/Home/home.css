@@ -1,0 +1,86 @@
+.heroes {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.heroe {
+    width: 1068px;
+}
+
+.hero {
+    background-image: url("./bg_hero.svg");
+    width: 958px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.img-hero {
+    width: 451px;
+    height: 324px;
+    margin-right: -10rem;
+}
+
+/* Text Style */
+
+.text-hero{
+    margin-left: 3rem;
+    margin-right: 5rem;
+}
+
+.waysbucks {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 1rem 0;
+}
+
+.slogan {
+    color: white;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.description {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+/* order style */
+.lets-order {
+    padding-left: 21.5vw;
+    color: #BD0707;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.coffee {
+    padding-left: 21.5vw;
+}
+
+/* card product */
+.card-home {
+    width: 241px;
+    height: 392px;
+    background-color: #F6DADA;
+    border-radius: 8px;
+}
+
+.card-title {
+    color: #BD0707;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0.5rem 1rem;
+}
+
+.card-price {
+    color: #BD0707;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 1rem 1rem 0;
+}

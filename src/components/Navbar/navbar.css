@@ -1,0 +1,99 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+  }
+
+.logoNavbar {
+    width: 80px;
+    height: 80px;
+}
+
+.button {
+    display: flex;
+    gap: 1rem;
+}
+
+.login {
+    font-weight: 600;
+    color: #BD0707;
+    background-color: white;
+    border: 2.5px solid #BD0707;
+    border-radius: 8px;
+    padding: 0.4rem 1.6rem;
+    cursor: pointer;
+}
+
+.login:hover {
+    font-weight: 500;
+    color: white;
+    background-color: #BD0707;
+    border: 2.5px solid #BD0707;
+    border-radius: 8px;
+    padding: 0.4rem 1.6rem;
+    cursor: pointer;
+}
+
+.register {
+    font-weight: 500;
+    color: white;
+    background-color: #BD0707;
+    border: 2.5px solid #BD0707;
+    border-radius: 8px;
+    padding: 0.4rem 0.9rem;
+    cursor: pointer;
+}
+
+.register:hover {
+    font-weight: 600;
+    color: #BD0707;
+    background-color: white;
+    border: 2.5px solid #BD0707;
+    border-radius: 8px;
+    padding: 0.4rem 0.9rem;
+    cursor: pointer;
+}
+
+/* Modal Login */
+
+.div-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.title-modal {
+    color: #BD0707;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.input-text {
+    width: 300px;
+    padding: 0 1rem;
+    height: 40px;
+    background-color: #E0C8C840;
+    border: 2.5px solid #BD0707;
+    border-radius: 8px;
+}
+
+.input-text:focus {
+    outline: #BD0707;
+}
+
+
+.btn-modal {
+    text-align: center;
+    color: white;
+    background-color: #BD0707;
+    border-radius: 8px;
+    padding: 0.8rem;
+    margin: 2rem 0 1rem 0;
+    cursor: pointer;
+}
+
+.have-account {
+    text-align: center;
+}
