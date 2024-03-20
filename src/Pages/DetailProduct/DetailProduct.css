@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 12.5vw;
+}
+
+.outer-topping{
+    width: 576px;
+    display: grid;
+    gap: 1rem;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 24px;
+    color: #974A4A;
+}
+
+.title{
+    margin: 0;
+    font-weight: 900;
+    font-size: 48px;
+    color: #BD0707;
+}
+
+.price{
+    color: #974A4A;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.topping-text{
+    font-weight: 800;
+    color: #974A4A;
+    font-size: 24px;
+}
+
+.topping-name{
+    font-weight: 400;
+    font-size: 14px;
+    color: #BD0707;
+}
+
+.btn {
+    text-align: center;
+    color: white;
+    background-color: #BD0707;
+    border-radius: 8px;
+    padding: 0.8rem;
+    margin: 2rem 0 1rem 0;
+    cursor: pointer;
+    border: 2px solid #BD0707;
+}
+
+.btn:hover {
+    text-align: center;
+    color: #BD0707;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0.8rem;
+    margin: 2rem 0 1rem 0;
+    cursor: pointer;
+    border: 2px solid #BD0707;
+}
